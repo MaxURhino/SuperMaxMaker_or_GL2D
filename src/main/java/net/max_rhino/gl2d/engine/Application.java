@@ -1,6 +1,6 @@
 package net.max_rhino.gl2d.engine;
 
-import net.max_rhino.gl2d.engine.shape.Rectangle;
+import net.max_rhino.gl2d.engine.math.Recti;
 import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
@@ -20,17 +20,25 @@ public abstract class Application {
     private long lastTime;
     private double deltaTime;
 
-    private List<Drawable> drawables = new ArrayList<>();
+    protected int definedWidth;
+    protected int definedHeight;
+
+    private Recti vp;
+
+    private List<DrawableDisposable> drawables = new ArrayList<>();
 
     public Application(int width, int height, String title) {
-        this.width = width;
-        this.height = height;
+        this.width  = width;  this.definedWidth  = width;
+        this.height = height; this.definedHeight = height;
         this.title = title;
     }
 
     public void run() {
         init();
         loop();
+        for (Disposable drawable : drawables) {
+            drawable.dispose();
+        }
         GLFW.glfwDestroyWindow(window);
         GLFW.glfwTerminate();
     }
@@ -41,6 +49,8 @@ public abstract class Application {
         }
 
         window = GLFW.glfwCreateWindow(width, height, title, 0, 0);
+
+        vp = new Recti(0, 0, width, height);
 
         if (window == 0) {
             throw new IllegalStateException("Failed to create window");
@@ -57,22 +67,31 @@ public abstract class Application {
             );
         }
 
-        GLFW.glfwSetFramebufferSizeCallback(window, (window, width, height) -> {
-            float targetAspect = 16f / 9f;
+        GLFW.glfwSetFramebufferSizeCallback(window, (_, width, height) -> {
+            this.width = width;
+            this.height = height;
 
+            float targetAspect = (float)(this.definedWidth) / (float)(this.definedHeight);
             float windowAspect = (float) width / height;
 
-            int vpX = 0, vpY = 0, vpW = width, vpH = height;
+            vp = new Recti(0, 0, width, height);
 
             if (windowAspect > targetAspect) {
-                vpW = (int)(height * targetAspect);
-                vpX = (width - vpW) / 2;
+                vp.size().x = (int) (height * targetAspect);
+                vp.pos().x = (width - vp.size().x) / 2;
             } else {
-                vpH = (int)(width / targetAspect);
-                vpY = (height - vpH) / 2;
+                vp.size().y = (int) (width / targetAspect);
+                vp.pos().y = (height - vp.size().y) / 2;
             }
 
-            GL11.glViewport(vpX, vpY, vpW, vpH);
+            GL11.glViewport(vp.pos().x, vp.pos().y, vp.size().x, vp.size().y);
+
+            GL11.glMatrixMode(GL11.GL_PROJECTION);
+            GL11.glLoadIdentity();
+            GL11.glOrtho(0, this.definedWidth, this.definedHeight, 0, -1, 1);
+
+            GL11.glMatrixMode(GL11.GL_MODELVIEW);
+            GL11.glLoadIdentity();
         });
 
         GLFW.glfwMakeContextCurrent(window);
@@ -115,20 +134,24 @@ public abstract class Application {
         GL11.glClearColor(color.getRed() / 255f, color.getGreen() / 255f, color.getBlue() / 255f, color.getAlpha() / 255f);
     }
 
-    protected void clear(boolean useFillFunction) {
-        if (useFillFunction) {
-            new Rectangle(0, 0, this.width, this.height).setColor(this.clearColor).render(0);
-        } else
-        {
-            GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
-        }
-    }
-
     protected void clear() {
-        clear(false);
+            Color temp = this.clearColor;
+
+            setClearColor(Color.BLACK);
+
+            GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
+
+            setClearColor(temp);
+
+            GL11.glEnable(GL11.GL_SCISSOR_TEST);
+            GL11.glScissor(vp.pos().x, vp.pos().y, vp.size().x, vp.size().y);
+
+            GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
+
+            GL11.glDisable(GL11.GL_SCISSOR_TEST);
     }
 
-    protected <T extends Drawable> void addDrawable(T drawable) {
+    protected <T extends DrawableDisposable> void addDrawable(T drawable) {
         this.drawables.add(drawable);
     }
 
@@ -137,6 +160,13 @@ public abstract class Application {
     protected abstract void update();
 
     protected void render(double dt) {
+        render(dt, false);
+    }
+
+    protected void render(double dt, boolean clear) {
+        if (clear) {
+            this.clear();
+        }
         for (Drawable drawable : drawables) {
             drawable.render(dt);
         }

@@ -44,8 +44,9 @@ dependencies {
     implementation("org.lwjgl", "lwjgl-tinyfd", classifier = lwjglNatives)
     implementation("org.joml", "joml", jomlVersion)
 
-    implementation("com.google.code.gson:gson:2.14.0")
-    implementation("org.apache.commons:commons-lang3:3.20.0")
+    implementation("com.google.code.gson", "gson", "2.14.0")
+    implementation("org.apache.commons", "commons-lang3", "3.20.0")
+    implementation("org.slf4j", "slf4j-api", "2.1.0-alpha1")
 }
 
 kotlin {

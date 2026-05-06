@@ -26,7 +26,6 @@ public class Sprite implements Disposable, Transformable, Drawable {
     }
 
     public void setTexture(Texture texture) {
-        this.texture.dispose();
         this.texture = texture;
         this.texture.bind();
     }
@@ -86,6 +85,9 @@ public class Sprite implements Disposable, Transformable, Drawable {
     @Override
     public Sprite render(double dt) {
         glEnable(GL_TEXTURE_2D);
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
         texture.bind();
 
         glBegin(GL_QUADS);
@@ -105,7 +107,7 @@ public class Sprite implements Disposable, Transformable, Drawable {
             float x = region.pos().x;
             float y = region.pos().y;
             float w = region.size().x;
-            float h = region.size().y;
+            float h = region.size().y - 1;
 
             u0 = x / texW;
             v0 = y / texH;
@@ -113,7 +115,7 @@ public class Sprite implements Disposable, Transformable, Drawable {
             v1 = (y + h) / texH;
 
             width = region.size().x;
-            height = region.size().y;
+            height = region.size().y - 1;
         }
 
         float x = position.x;

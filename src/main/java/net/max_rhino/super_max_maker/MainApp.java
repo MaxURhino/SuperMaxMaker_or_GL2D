@@ -1,7 +1,8 @@
 package net.max_rhino.super_max_maker;
 
 import net.max_rhino.gl2d.engine.Application;
-import net.max_rhino.gl2d.engine.Sprite;
+
+import java.awt.*;
 
 public class MainApp extends Application {
     private Mario mario;
@@ -12,8 +13,10 @@ public class MainApp extends Application {
 
     @Override
     protected void onCreate() {
+        this.setClearColor(new Color(0x7B6BFF));
         mario = Mario.getInstance();
         this.addDrawable(mario);
+        Main.LOGGER.info("App has started!");
     }
 
     @Override
@@ -23,7 +26,6 @@ public class MainApp extends Application {
 
     @Override
     protected void render(double dt) {
-        this.clear();
-        super.render(dt);
+        super.render(dt, true);
     }
 }

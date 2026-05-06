@@ -1,4 +1,11 @@
 package net.max_rhino.super_max_maker;
 
-public class Mario {
+public class Mario extends Player {
+    public Mario() {
+        super("mario");
+    }
+
+    public static Mario getInstance() {
+        return new Mario();
+    }
 }

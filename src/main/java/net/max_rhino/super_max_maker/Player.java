@@ -1,14 +1,11 @@
 package net.max_rhino.super_max_maker;
 
-import net.max_rhino.gl2d.engine.Drawable;
-import net.max_rhino.gl2d.engine.Input;
-import net.max_rhino.gl2d.engine.Sprite;
-import net.max_rhino.gl2d.engine.Texture;
+import net.max_rhino.gl2d.GL2D;
+import net.max_rhino.gl2d.engine.*;
 import net.max_rhino.gl2d.engine.math.Recti;
 import net.max_rhino.super_max_maker.loaders.NeoarcSpriteInfo;
 import net.max_rhino.super_max_maker.loaders.NeoarcSpriteLoader;
 import net.max_rhino.super_max_maker.loaders.NeoarcSpriteUtil;
-import org.apache.commons.lang3.StringUtils;
 import org.joml.Vector2f;
 import org.joml.Vector2i;
 import org.lwjgl.glfw.GLFW;
@@ -16,7 +13,7 @@ import org.lwjgl.glfw.GLFW;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mario implements Drawable {
+public abstract class Player implements DrawableDisposable {
     private Sprite sprite;
     private NeoarcSpriteInfo info;
     private float animFrame;
@@ -26,6 +23,8 @@ public class Mario implements Drawable {
     private PowerUp powerUp = PowerUp.SMALL;
     private PowerUp lastPowerUp = PowerUp.SMALL;
     private Vector2f lastVelocity = new Vector2f();
+
+    private final String character;
 
     public static int KEY_WALK = 0;
 
@@ -92,22 +91,24 @@ public class Mario implements Drawable {
         WALK,
         JUMP,
         JUMP_DOWN,
-        SKID;
+        SKID,
+        CROUCH;
 
         @Override
         public String toString() {
-            return StringUtils.capitalize(this.name().replace("_", " ").toLowerCase()).replace(" ", "");
+            return GL2D.toPascalCase(this.name());
         }
     }
 
-    public Mario() {
+    public Player(String character) {
+        this.character = character;
         try {
             this.info = NeoarcSpriteLoader.load(
-                    "/assets/images/objects/characters/players/mario/small.json"
+                    SuperMaxMakerPaths.image("objects/characters/players/" + this.character + "/small.json", false)
             );
             this.sprite = new Sprite(
                     new Texture(
-                            Main.getPath("/assets/images/objects/characters/players/mario/small.png")
+                            SuperMaxMakerPaths.image("objects/characters/players/" + this.character + "/small")
                     ),
                     0,
                     0
@@ -123,10 +124,6 @@ public class Mario implements Drawable {
 
     public void setPowerUp(PowerUp powerUp) {
         this.powerUp = powerUp;
-    }
-
-    public static Mario getInstance() {
-        return new Mario();
     }
 
     public void moveLeftRight(double dt) {
@@ -171,19 +168,20 @@ public class Mario implements Drawable {
     }
 
     @Override
-    public Mario render(double dt) {
+    public Player render(double dt) {
         frame += 1;
 
         if (lastPowerUp != powerUp) {
             try {
+                this.info = NeoarcSpriteLoader.load(
+                        SuperMaxMakerPaths.image("objects/characters/players/" + this.character + "/" + this.powerUp + ".json", false)
+                );
                 this.sprite.setTexture(
                         new Texture(
-                                Main.getPath("/assets/images/objects/characters/players/mario/" + powerUp + ".png")
+                                SuperMaxMakerPaths.image("objects/characters/players/" + this.character + "/" + this.powerUp)
                         )
                 );
-            } catch (Exception _) {
-
-            }
+            } catch (Exception _) {}
             lastPowerUp = powerUp;
         }
 
@@ -219,5 +217,10 @@ public class Mario implements Drawable {
 
         sprite.setRegion(rect).render(dt);
         return this;
+    }
+
+    @Override
+    public void dispose() {
+
     }
 }
