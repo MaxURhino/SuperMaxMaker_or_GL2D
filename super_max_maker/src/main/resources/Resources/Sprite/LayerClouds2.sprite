@@ -1,0 +1,18 @@
+{
+	"Frames" : 
+	[
+		{
+			"Offset" : "0.0 48.0",
+			"Rect" : "0 0 512 480"
+		}
+	],
+	"NamedAnimations" : 
+	[
+		{
+			"Frames" : "0",
+			"Name" : "cloud2"
+		}
+	],
+	"SubPositions" : "",
+	"Version" : "Neoarc's Sprite v2.0"
+}

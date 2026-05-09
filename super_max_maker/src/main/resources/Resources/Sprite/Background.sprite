@@ -1,0 +1,1290 @@
+{
+	"Frames" : 
+	[
+		{
+			"Offset" : "7.0 14.0",
+			"Rect" : "0 34 14 48"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "15 18 29 48"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "30 2 46 48"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "47 32 95 48"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "96 39 110 48"
+		},
+		{
+			"Offset" : "7.0 22.0",
+			"Rect" : "111 26 125 48"
+		},
+		{
+			"Offset" : "7.0 38.0",
+			"Rect" : "126 10 140 48"
+		},
+		{
+			"Offset" : "23.0 14.0",
+			"Rect" : "141 34 187 48"
+		},
+		{
+			"Offset" : "4.0 16.0",
+			"Rect" : "188 32 197 48"
+		},
+		{
+			"Offset" : "8.0 32.0",
+			"Rect" : "198 16 214 48"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "215 0 231 48"
+		},
+		{
+			"Offset" : "23.0 16.0",
+			"Rect" : "232 32 278 48"
+		},
+		{
+			"Offset" : "8.0 15.0",
+			"Rect" : "279 33 295 48"
+		},
+		{
+			"Offset" : "8.0 31.0",
+			"Rect" : "296 17 312 48"
+		},
+		{
+			"Offset" : "8.0 47.0",
+			"Rect" : "313 1 329 48"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "330 32 378 48"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "0 49 16 97"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "17 49 33 97"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "34 49 50 97"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "51 49 67 97"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "68 49 84 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "85 81 101 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "102 81 118 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "119 81 135 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "136 81 152 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "153 81 169 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "170 81 186 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "187 81 203 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "204 81 220 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "221 81 237 97"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "238 81 254 97"
+		},
+		{
+			"Offset" : "16.0 24.0",
+			"Rect" : "255 73 287 97"
+		},
+		{
+			"Offset" : "24.0 24.0",
+			"Rect" : "288 73 336 97"
+		},
+		{
+			"Offset" : "32.0 24.0",
+			"Rect" : "337 73 401 97"
+		},
+		{
+			"Offset" : "16.0 24.0",
+			"Rect" : "402 73 434 97"
+		},
+		{
+			"Offset" : "24.0 24.0",
+			"Rect" : "435 73 483 97"
+		},
+		{
+			"Offset" : "32.0 24.0",
+			"Rect" : "484 73 548 97"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "0 136 14 145"
+		},
+		{
+			"Offset" : "7.0 31.0",
+			"Rect" : "15 114 30 145"
+		},
+		{
+			"Offset" : "7.0 45.0",
+			"Rect" : "31 100 46 145"
+		},
+		{
+			"Offset" : "22.0 15.0",
+			"Rect" : "47 130 91 145"
+		},
+		{
+			"Offset" : "4.0 2.0",
+			"Rect" : "92 143 100 145"
+		},
+		{
+			"Offset" : "8.0 30.0",
+			"Rect" : "101 115 117 145"
+		},
+		{
+			"Offset" : "7.0 47.0",
+			"Rect" : "118 98 133 145"
+		},
+		{
+			"Offset" : "22.0 12.0",
+			"Rect" : "134 133 178 145"
+		},
+		{
+			"Offset" : "7.0 14.0",
+			"Rect" : "179 131 193 145"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "194 115 208 145"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "210 99 226 145"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "227 129 275 145"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "276 136 290 145"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "291 115 305 145"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "306 99 322 145"
+		},
+		{
+			"Offset" : "24.0 13.0",
+			"Rect" : "323 132 371 145"
+		},
+		{
+			"Offset" : "4.0 12.0",
+			"Rect" : "372 133 380 145"
+		},
+		{
+			"Offset" : "4.0 28.0",
+			"Rect" : "381 117 389 145"
+		},
+		{
+			"Offset" : "4.0 44.0",
+			"Rect" : "390 101 398 145"
+		},
+		{
+			"Offset" : "23.0 14.0",
+			"Rect" : "399 131 445 145"
+		},
+		{
+			"Offset" : "5.0 11.0",
+			"Rect" : "446 134 456 145"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "457 115 471 145"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "472 99 488 145"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "489 129 537 145"
+		},
+		{
+			"Offset" : "7.0 14.0",
+			"Rect" : "0 180 14 194"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "15 164 29 194"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "30 148 46 194"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "47 178 95 194"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "96 185 110 194"
+		},
+		{
+			"Offset" : "8.0 28.0",
+			"Rect" : "111 166 127 194"
+		},
+		{
+			"Offset" : "8.0 47.0",
+			"Rect" : "128 147 144 194"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "145 178 193 194"
+		},
+		{
+			"Offset" : "7.0 14.0",
+			"Rect" : "194 180 208 194"
+		},
+		{
+			"Offset" : "8.0 32.0",
+			"Rect" : "210 162 226 194"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "227 146 243 194"
+		},
+		{
+			"Offset" : "24.0 13.0",
+			"Rect" : "244 181 292 194"
+		},
+		{
+			"Offset" : "8.0 12.0",
+			"Rect" : "293 182 309 194"
+		},
+		{
+			"Offset" : "4.0 28.0",
+			"Rect" : "310 166 318 194"
+		},
+		{
+			"Offset" : "4.0 44.0",
+			"Rect" : "319 150 327 194"
+		},
+		{
+			"Offset" : "23.0 14.0",
+			"Rect" : "328 180 374 194"
+		},
+		{
+			"Offset" : "4.0 2.0",
+			"Rect" : "375 192 383 194"
+		},
+		{
+			"Offset" : "7.0 31.0",
+			"Rect" : "384 163 399 194"
+		},
+		{
+			"Offset" : "7.0 47.0",
+			"Rect" : "400 147 415 194"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "416 178 464 194"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "0 233 14 242"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "16 212 28 242"
+		},
+		{
+			"Offset" : "7.0 46.0",
+			"Rect" : "32 196 46 242"
+		},
+		{
+			"Offset" : "24.0 15.0",
+			"Rect" : "47 227 95 242"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "96 233 110 242"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "111 212 123 242"
+		},
+		{
+			"Offset" : "7.0 46.0",
+			"Rect" : "124 196 138 242"
+		},
+		{
+			"Offset" : "23.0 16.0",
+			"Rect" : "139 226 185 242"
+		},
+		{
+			"Offset" : "8.0 14.0",
+			"Rect" : "186 228 202 242"
+		},
+		{
+			"Offset" : "8.0 30.0",
+			"Rect" : "203 212 219 242"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "220 196 236 242"
+		},
+		{
+			"Offset" : "24.0 13.0",
+			"Rect" : "237 229 285 242"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "286 233 300 242"
+		},
+		{
+			"Offset" : "8.0 31.0",
+			"Rect" : "301 211 317 242"
+		},
+		{
+			"Offset" : "8.0 47.0",
+			"Rect" : "318 195 334 242"
+		},
+		{
+			"Offset" : "24.0 13.0",
+			"Rect" : "335 229 383 242"
+		},
+		{
+			"Offset" : "6.0 14.0",
+			"Rect" : "384 228 396 242"
+		},
+		{
+			"Offset" : "8.0 32.0",
+			"Rect" : "397 210 413 242"
+		},
+		{
+			"Offset" : "7.0 43.0",
+			"Rect" : "414 199 429 242"
+		},
+		{
+			"Offset" : "24.0 15.0",
+			"Rect" : "430 227 478 242"
+		},
+		{
+			"Offset" : "8.0 9.0",
+			"Rect" : "0 281 16 290"
+		},
+		{
+			"Offset" : "8.0 31.0",
+			"Rect" : "17 259 33 290"
+		},
+		{
+			"Offset" : "8.0 47.0",
+			"Rect" : "34 243 50 290"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "51 274 99 290"
+		},
+		{
+			"Offset" : "4.0 16.0",
+			"Rect" : "102 274 111 290"
+		},
+		{
+			"Offset" : "8.0 29.0",
+			"Rect" : "115 261 131 290"
+		},
+		{
+			"Offset" : "8.0 41.0",
+			"Rect" : "132 249 148 290"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "149 274 197 290"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "198 281 212 290"
+		},
+		{
+			"Offset" : "7.0 31.0",
+			"Rect" : "213 259 228 290"
+		},
+		{
+			"Offset" : "7.0 47.0",
+			"Rect" : "229 243 244 290"
+		},
+		{
+			"Offset" : "24.0 13.0",
+			"Rect" : "245 277 293 290"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "294 281 308 290"
+		},
+		{
+			"Offset" : "4.0 29.0",
+			"Rect" : "309 261 318 290"
+		},
+		{
+			"Offset" : "4.0 45.0",
+			"Rect" : "319 245 328 290"
+		},
+		{
+			"Offset" : "23.0 14.0",
+			"Rect" : "329 276 375 290"
+		},
+		{
+			"Offset" : "8.0 12.0",
+			"Rect" : "376 278 392 290"
+		},
+		{
+			"Offset" : "7.0 22.0",
+			"Rect" : "393 268 407 290"
+		},
+		{
+			"Offset" : "7.0 38.0",
+			"Rect" : "408 252 422 290"
+		},
+		{
+			"Offset" : "19.0 11.0",
+			"Rect" : "423 279 461 290"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "462 281 476 290"
+		},
+		{
+			"Offset" : "4.0 29.0",
+			"Rect" : "477 261 486 290"
+		},
+		{
+			"Offset" : "7.0 45.0",
+			"Rect" : "487 245 502 290"
+		},
+		{
+			"Offset" : "23.0 14.0",
+			"Rect" : "503 276 549 290"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "0 329 14 338"
+		},
+		{
+			"Offset" : "4.0 29.0",
+			"Rect" : "15 309 24 338"
+		},
+		{
+			"Offset" : "7.0 45.0",
+			"Rect" : "25 293 40 338"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "41 322 89 338"
+		},
+		{
+			"Offset" : "7.0 14.0",
+			"Rect" : "90 324 104 338"
+		},
+		{
+			"Offset" : "7.0 30.0",
+			"Rect" : "105 308 119 338"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "120 292 136 338"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "137 322 185 338"
+		},
+		{
+			"Offset" : "4.0 2.0",
+			"Rect" : "186 336 194 338"
+		},
+		{
+			"Offset" : "8.0 30.0",
+			"Rect" : "195 308 211 338"
+		},
+		{
+			"Offset" : "7.0 47.0",
+			"Rect" : "213 291 228 338"
+		},
+		{
+			"Offset" : "22.0 12.0",
+			"Rect" : "231 326 275 338"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "85 64 101 80"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "102 64 118 80"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "119 64 135 80"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "136 64 152 80"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "153 64 169 80"
+		},
+		{
+			"Offset" : "7.0 9.0",
+			"Rect" : "276 329 290 338"
+		},
+		{
+			"Offset" : "8.0 24.0",
+			"Rect" : "291 314 307 338"
+		},
+		{
+			"Offset" : "4.0 45.0",
+			"Rect" : "308 293 317 338"
+		},
+		{
+			"Offset" : "23.0 14.0",
+			"Rect" : "318 324 364 338"
+		},
+		{
+			"Offset" : "5.0 11.0",
+			"Rect" : "365 327 375 338"
+		},
+		{
+			"Offset" : "8.0 30.0",
+			"Rect" : "376 308 392 338"
+		},
+		{
+			"Offset" : "8.0 46.0",
+			"Rect" : "393 292 409 338"
+		},
+		{
+			"Offset" : "24.0 16.0",
+			"Rect" : "410 322 458 338"
+		},
+		{
+			"Offset" : "4.0 16.0",
+			"Rect" : "459 322 468 338"
+		},
+		{
+			"Offset" : "8.0 31.0",
+			"Rect" : "469 307 485 338"
+		},
+		{
+			"Offset" : "8.0 44.0",
+			"Rect" : "486 294 502 338"
+		},
+		{
+			"Offset" : "23.0 16.0",
+			"Rect" : "503 322 549 338"
+		},
+		{
+			"Offset" : "4.0 16.0",
+			"Rect" : "0 371 9 387"
+		},
+		{
+			"Offset" : "8.0 32.0",
+			"Rect" : "10 355 26 387"
+		},
+		{
+			"Offset" : "3.0 43.0",
+			"Rect" : "27 344 34 387"
+		},
+		{
+			"Offset" : "23.0 16.0",
+			"Rect" : "35 371 81 387"
+		},
+		{
+			"Offset" : "8.0 16.0",
+			"Rect" : "82 371 98 387"
+		},
+		{
+			"Offset" : "8.0 30.0",
+			"Rect" : "99 357 115 387"
+		},
+		{
+			"Offset" : "8.0 41.0",
+			"Rect" : "116 346 132 387"
+		},
+		{
+			"Offset" : "24.0 13.0",
+			"Rect" : "133 374 181 387"
+		},
+		{
+			"Offset" : "4.0 16.0",
+			"Rect" : "182 371 191 387"
+		},
+		{
+			"Offset" : "8.0 32.0",
+			"Rect" : "192 355 208 387"
+		},
+		{
+			"Offset" : "8.0 48.0",
+			"Rect" : "209 339 225 387"
+		},
+		{
+			"Offset" : "23.0 16.0",
+			"Rect" : "226 371 272 387"
+		}
+	],
+	"NamedAnimations" : 
+	[
+		{
+			"Frames" : "41",
+			"Name" : "Airship"
+		},
+		{
+			"Frames" : "42",
+			"Name" : "Airship2"
+		},
+		{
+			"Frames" : "43",
+			"Name" : "Airship3"
+		},
+		{
+			"Frames" : "44",
+			"Name" : "Airship4"
+		},
+		{
+			"Frames" : "146",
+			"Name" : "Athletic"
+		},
+		{
+			"Frames" : "147",
+			"Name" : "Athletic2"
+		},
+		{
+			"Frames" : "148",
+			"Name" : "Athletic3"
+		},
+		{
+			"Frames" : "149",
+			"Name" : "Athletic4"
+		},
+		{
+			"Frames" : "89",
+			"Name" : "Autumn"
+		},
+		{
+			"Frames" : "90",
+			"Name" : "Autumn2"
+		},
+		{
+			"Frames" : "91",
+			"Name" : "Autumn3"
+		},
+		{
+			"Frames" : "92",
+			"Name" : "Autumn4"
+		},
+		{
+			"Frames" : "69",
+			"Name" : "Beach"
+		},
+		{
+			"Frames" : "70",
+			"Name" : "Beach2"
+		},
+		{
+			"Frames" : "71",
+			"Name" : "Beach3"
+		},
+		{
+			"Frames" : "72",
+			"Name" : "Beach4"
+		},
+		{
+			"Frames" : "162",
+			"Name" : "Bonus"
+		},
+		{
+			"Frames" : "163",
+			"Name" : "Bonus2"
+		},
+		{
+			"Frames" : "164",
+			"Name" : "Bonus3"
+		},
+		{
+			"Frames" : "165",
+			"Name" : "Bonus4"
+		},
+		{
+			"Frames" : "8",
+			"Name" : "Castle"
+		},
+		{
+			"Frames" : "9",
+			"Name" : "Castle2"
+		},
+		{
+			"Frames" : "10",
+			"Name" : "Castle3"
+		},
+		{
+			"Frames" : "11",
+			"Name" : "Castle4"
+		},
+		{
+			"Frames" : "31",
+			"Name" : "Cloud"
+		},
+		{
+			"Frames" : "32",
+			"Name" : "Cloud2"
+		},
+		{
+			"Frames" : "33",
+			"Name" : "Cloud3"
+		},
+		{
+			"Frames" : "53",
+			"Name" : "Desert"
+		},
+		{
+			"Frames" : "54",
+			"Name" : "Desert2"
+		},
+		{
+			"Frames" : "55",
+			"Name" : "Desert3"
+		},
+		{
+			"Frames" : "56",
+			"Name" : "Desert4"
+		},
+		{
+			"Frames" : "49",
+			"Name" : "Forest"
+		},
+		{
+			"Frames" : "50",
+			"Name" : "Forest2"
+		},
+		{
+			"Frames" : "51",
+			"Name" : "Forest3"
+		},
+		{
+			"Frames" : "52",
+			"Name" : "Forest4"
+		},
+		{
+			"Frames" : "37",
+			"Name" : "GhHouse"
+		},
+		{
+			"Frames" : "38",
+			"Name" : "GhHouse2"
+		},
+		{
+			"Frames" : "39",
+			"Name" : "GhHouse3"
+		},
+		{
+			"Frames" : "40",
+			"Name" : "GhHouse4"
+		},
+		{
+			"Frames" : "142",
+			"Name" : "GhYard"
+		},
+		{
+			"Frames" : "143",
+			"Name" : "GhYard2"
+		},
+		{
+			"Frames" : "144",
+			"Name" : "GhYard3"
+		},
+		{
+			"Frames" : "145",
+			"Name" : "GhYard4"
+		},
+		{
+			"Frames" : "61",
+			"Name" : "Gray"
+		},
+		{
+			"Frames" : "62",
+			"Name" : "Gray2"
+		},
+		{
+			"Frames" : "63",
+			"Name" : "Gray3"
+		},
+		{
+			"Frames" : "64",
+			"Name" : "Gray4"
+		},
+		{
+			"Frames" : "97",
+			"Name" : "InAirship"
+		},
+		{
+			"Frames" : "98",
+			"Name" : "InAirship2"
+		},
+		{
+			"Frames" : "99",
+			"Name" : "InAirship3"
+		},
+		{
+			"Frames" : "100",
+			"Name" : "InAirship4"
+		},
+		{
+			"Frames" : "27,28,29,30",
+			"Name" : "Lava"
+		},
+		{
+			"Frames" : "26",
+			"Name" : "LavaClassic"
+		},
+		{
+			"Frames" : "93",
+			"Name" : "Mountain"
+		},
+		{
+			"Frames" : "94",
+			"Name" : "Mountain2"
+		},
+		{
+			"Frames" : "95",
+			"Name" : "Mountain3"
+		},
+		{
+			"Frames" : "96",
+			"Name" : "Mountain4"
+		},
+		{
+			"Frames" : "65",
+			"Name" : "Mush"
+		},
+		{
+			"Frames" : "66",
+			"Name" : "Mush2"
+		},
+		{
+			"Frames" : "67",
+			"Name" : "Mush3"
+		},
+		{
+			"Frames" : "68",
+			"Name" : "Mush4"
+		},
+		{
+			"Frames" : "133",
+			"Name" : "NightAirship"
+		},
+		{
+			"Frames" : "134",
+			"Name" : "NightAirship2"
+		},
+		{
+			"Frames" : "135",
+			"Name" : "NightAirship3"
+		},
+		{
+			"Frames" : "136",
+			"Name" : "NightAirship4"
+		},
+		{
+			"Frames" : "129",
+			"Name" : "NightSnow"
+		},
+		{
+			"Frames" : "130",
+			"Name" : "NightSnow2"
+		},
+		{
+			"Frames" : "131",
+			"Name" : "NightSnow3"
+		},
+		{
+			"Frames" : "132",
+			"Name" : "NightSnow4"
+		},
+		{
+			"Frames" : "17,18,19,20",
+			"Name" : "OutOfWater"
+		},
+		{
+			"Frames" : "16",
+			"Name" : "OutOfWaterClassic"
+		},
+		{
+			"Frames" : "0",
+			"Name" : "Overworld"
+		},
+		{
+			"Frames" : "1",
+			"Name" : "Overworld2"
+		},
+		{
+			"Frames" : "2",
+			"Name" : "Overworld3"
+		},
+		{
+			"Frames" : "3",
+			"Name" : "Overworld4"
+		},
+		{
+			"Frames" : "81",
+			"Name" : "PipeLand"
+		},
+		{
+			"Frames" : "82",
+			"Name" : "PipeLand2"
+		},
+		{
+			"Frames" : "83",
+			"Name" : "PipeLand3"
+		},
+		{
+			"Frames" : "84",
+			"Name" : "PipeLand4"
+		},
+		{
+			"Frames" : "85",
+			"Name" : "PipeMaze"
+		},
+		{
+			"Frames" : "86",
+			"Name" : "PipeMaze2"
+		},
+		{
+			"Frames" : "87",
+			"Name" : "PipeMaze3"
+		},
+		{
+			"Frames" : "88",
+			"Name" : "PipeMaze4"
+		},
+		{
+			"Frames" : "22,23,24,25",
+			"Name" : "Poison"
+		},
+		{
+			"Frames" : "21",
+			"Name" : "PoisonClassic"
+		},
+		{
+			"Frames" : "34",
+			"Name" : "RedCloud"
+		},
+		{
+			"Frames" : "35",
+			"Name" : "RedCloud2"
+		},
+		{
+			"Frames" : "36",
+			"Name" : "RedCloud3"
+		},
+		{
+			"Frames" : "57",
+			"Name" : "Sky"
+		},
+		{
+			"Frames" : "58",
+			"Name" : "Sky2"
+		},
+		{
+			"Frames" : "59",
+			"Name" : "Sky3"
+		},
+		{
+			"Frames" : "60",
+			"Name" : "Sky4"
+		},
+		{
+			"Frames" : "105",
+			"Name" : "SkyLand"
+		},
+		{
+			"Frames" : "106",
+			"Name" : "SkyLand2"
+		},
+		{
+			"Frames" : "107",
+			"Name" : "SkyLand3"
+		},
+		{
+			"Frames" : "108",
+			"Name" : "SkyLand4"
+		},
+		{
+			"Frames" : "45",
+			"Name" : "Snow"
+		},
+		{
+			"Frames" : "46",
+			"Name" : "Snow2"
+		},
+		{
+			"Frames" : "47",
+			"Name" : "Snow3"
+		},
+		{
+			"Frames" : "48",
+			"Name" : "Snow4"
+		},
+		{
+			"Frames" : "101",
+			"Name" : "Space"
+		},
+		{
+			"Frames" : "102",
+			"Name" : "Space2"
+		},
+		{
+			"Frames" : "103",
+			"Name" : "Space3"
+		},
+		{
+			"Frames" : "104",
+			"Name" : "Space4"
+		},
+		{
+			"Frames" : "77",
+			"Name" : "SunkShip"
+		},
+		{
+			"Frames" : "78",
+			"Name" : "SunkShip2"
+		},
+		{
+			"Frames" : "79",
+			"Name" : "SunkShip3"
+		},
+		{
+			"Frames" : "80",
+			"Name" : "SunkShip4"
+		},
+		{
+			"Frames" : "154",
+			"Name" : "Tower"
+		},
+		{
+			"Frames" : "155",
+			"Name" : "Tower2"
+		},
+		{
+			"Frames" : "156",
+			"Name" : "Tower3"
+		},
+		{
+			"Frames" : "157",
+			"Name" : "Tower4"
+		},
+		{
+			"Frames" : "150",
+			"Name" : "UCastle"
+		},
+		{
+			"Frames" : "151",
+			"Name" : "UCastle2"
+		},
+		{
+			"Frames" : "152",
+			"Name" : "UCastle3"
+		},
+		{
+			"Frames" : "153",
+			"Name" : "UCastle4"
+		},
+		{
+			"Frames" : "113",
+			"Name" : "UnDesert"
+		},
+		{
+			"Frames" : "114",
+			"Name" : "UnDesert2"
+		},
+		{
+			"Frames" : "115",
+			"Name" : "UnDesert3"
+		},
+		{
+			"Frames" : "116",
+			"Name" : "UnDesert4"
+		},
+		{
+			"Frames" : "109",
+			"Name" : "UnForest"
+		},
+		{
+			"Frames" : "110",
+			"Name" : "UnForest2"
+		},
+		{
+			"Frames" : "111",
+			"Name" : "UnForest3"
+		},
+		{
+			"Frames" : "112",
+			"Name" : "UnForest4"
+		},
+		{
+			"Frames" : "125",
+			"Name" : "UnMountain"
+		},
+		{
+			"Frames" : "126",
+			"Name" : "UnMountain2"
+		},
+		{
+			"Frames" : "127",
+			"Name" : "UnMountain3"
+		},
+		{
+			"Frames" : "128",
+			"Name" : "UnMountain4"
+		},
+		{
+			"Frames" : "117",
+			"Name" : "UnSnow"
+		},
+		{
+			"Frames" : "118",
+			"Name" : "UnSnow2"
+		},
+		{
+			"Frames" : "119",
+			"Name" : "UnSnow3"
+		},
+		{
+			"Frames" : "120",
+			"Name" : "UnSnow4"
+		},
+		{
+			"Frames" : "121",
+			"Name" : "UnVolcano"
+		},
+		{
+			"Frames" : "122",
+			"Name" : "UnVolcano2"
+		},
+		{
+			"Frames" : "123",
+			"Name" : "UnVolcano3"
+		},
+		{
+			"Frames" : "124",
+			"Name" : "UnVolcano4"
+		},
+		{
+			"Frames" : "4",
+			"Name" : "Underground"
+		},
+		{
+			"Frames" : "5",
+			"Name" : "Underground2"
+		},
+		{
+			"Frames" : "6",
+			"Name" : "Underground3"
+		},
+		{
+			"Frames" : "7",
+			"Name" : "Underground4"
+		},
+		{
+			"Frames" : "12",
+			"Name" : "Underwater"
+		},
+		{
+			"Frames" : "13",
+			"Name" : "Underwater2"
+		},
+		{
+			"Frames" : "14",
+			"Name" : "Underwater3"
+		},
+		{
+			"Frames" : "15",
+			"Name" : "Underwater4"
+		},
+		{
+			"Frames" : "73",
+			"Name" : "Volcano"
+		},
+		{
+			"Frames" : "74",
+			"Name" : "Volcano2"
+		},
+		{
+			"Frames" : "75",
+			"Name" : "Volcano3"
+		},
+		{
+			"Frames" : "76",
+			"Name" : "Volcano4"
+		},
+		{
+			"Frames" : "138,139,140,141",
+			"Name" : "Water"
+		},
+		{
+			"Frames" : "137",
+			"Name" : "WaterClassic"
+		},
+		{
+			"Frames" : "158",
+			"Name" : "Waterfall"
+		},
+		{
+			"Frames" : "159",
+			"Name" : "Waterfall2"
+		},
+		{
+			"Frames" : "160",
+			"Name" : "Waterfall3"
+		},
+		{
+			"Frames" : "161",
+			"Name" : "Waterfall4"
+		}
+	],
+	"SubPositions" : "",
+	"Version" : "Neoarc's Sprite v2.0"
+}
